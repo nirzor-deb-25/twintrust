@@ -1,0 +1,26 @@
+{
+  "exported_utc": "2026-11-12T22:05:42.147560+00:00",
+  "mode": "recorded experiments; no live connection; answers local to each tab",
+  "reports": [
+    "evaluation_20261109T120405Z_5c410b30",
+    "detection_20261107T230208Z_315babe7",
+    "forecast_20261109T120416Z_c9e73b6b"
+  ],
+  "sources_sha256": {
+    "evaluation_20261109T120405Z_5c410b30\\baseline.filtered.jsonl": "152b64e1a960fd80799df5c3e4e6a7277739285c9bc58cdcfe2e760d66e1697d",
+    "evaluation_20261109T120405Z_5c410b30\\noise.filtered.jsonl": "617a2bbf561f49755076a1c83d625e188cb4b813ca4b9f5931b33ca2fdf3826c",
+    "evaluation_20261109T120405Z_5c410b30\\spikes.filtered.jsonl": "34bb5782e69cfab4ca5837c438d4c2e0c888b475ac14fbbbfda1a4f7784b00b0",
+    "evaluation_20261109T120405Z_5c410b30\\dropout.filtered.jsonl": "978b7953dd4d1b9256bd2f87cc56e3a58ebc78bddf946d044f05968dd3cd0407",
+    "evaluation_20261109T120405Z_5c410b30\\sustained_rise.filtered.jsonl": "37aa851dbf14f97dc4afc119078240532dafd83b1406bba889a22e27c553d736",
+    "detection_20261107T230208Z_315babe7\\control.findings.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "detection_20261107T230208Z_315babe7\\delay.findings.jsonl": "2b7d0c32b504c117e1a812241daa8a24e3dda5869f5c7898cef4c6a5dc225501",
+    "detection_20261107T230208Z_315babe7\\duplicates.findings.jsonl": "7f7f4058ea428c1ea584d2e3a07fb7e6d458ba265c039b424d69333ef8190bac",
+    "detection_20261107T230208Z_315babe7\\out_of_order.findings.jsonl": "314176802b0e6d41d7609759f7f5ee015300081852235deb2a6d0c4038a7e18c",
+    "detection_20261107T230208Z_315babe7\\stuck.findings.jsonl": "03a4019ac93701c3f29d5b5268f059b2b2e4650e429f3b0113f37e0d26699ec5",
+    "detection_20261107T230208Z_315babe7\\bias_drift.findings.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "detection_20261107T230208Z_315babe7\\unit_mismatch.findings.jsonl": "05f72747012b46b8d997e2b566abe1f758add549d20522b4a71da584db61a8b4",
+    "evaluation_20261109T120405Z_5c410b30\\report.json": "7da6805b6c66316cb5089543f7dfafeef03e994e7d25cabe70506c537d4f0f60",
+    "detection_20261107T230208Z_315babe7\\report.json": "e8ba10b491962971bd3c3a75dadc7f96c8787cf398739d2d11079ed4de0f24c8",
+    "forecast_20261109T120416Z_c9e73b6b\\report.json": "ef58fd9fe085fa8b17cbb9e314a8d6f9eb037a6edfe95f58aa6fa9a794bda633"
+  }
+}
