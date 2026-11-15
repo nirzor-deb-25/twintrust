@@ -43,7 +43,21 @@ body{background:var(--bg);color:#eff5ff;font:16px/1.6 system-ui,sans-serif}main{
 </style></head>
 <body>
 <main>
-<header class="site-header"><div><span class="eyebrow">A SENSOR DATA LAB</span><h1>TwinTrust<span class="brand-dot">.</span></h1><p class="subtitle">See the readings. Reduce noise. Make a better decision.</p></div><span class="device-tag">STM32 + BME280</span></header><aside class="quick-guide"><strong>Saved data lab · Not live</strong><p>Explore recorded sensor data and simulations. Each person has their own controls. Answers stay in your browser and are not sent to the teacher.</p></aside><nav class="page-nav" aria-label="Dashboard sections"><button type="button" data-page="filter" aria-pressed="true">Try filtering</button><button type="button" data-page="challenge" aria-pressed="false">Audience challenge</button><button type="button" data-page="results" aria-pressed="false">Results</button></nav><div class="page-panel" id="page-filter" data-panel="filter"><aside class="quick-guide"><strong>What should I try?</strong><p>Start with Spikes. Press Play. Compare the blue and yellow lines. Then try Sustained rise: does stronger smoothing react later?</p></aside><section class="details" style="margin-top:28px">
+<header class="site-header"><div><span class="eyebrow">A SENSOR DATA LAB</span><h1>TwinTrust<span class="brand-dot">.</span></h1><p class="subtitle">See the readings. Reduce noise. Make a better decision.</p></div><span class="device-tag">STM32 + BME280</span></header>
+<!-- Update this link whenever you create a new Cloudflare Quick Tunnel. -->
+<section class="live-dashboard-link" aria-labelledby="live-dashboard-title"
+  style="margin: 16px 0 22px; padding: 22px; border: 1px solid #2c405b; border-radius: 12px; background: #142135;">
+  <h2 id="live-dashboard-title" style="margin: 0 0 8px; font-size: 22px;">Live sensor dashboard</h2>
+  <p style="margin: 0 0 16px; color: #b2c2d8;">See readings from our STM32 and BME280 during the classroom demo.</p>
+  <a id="open-live-dashboard"
+    href="https://groove-hung-extent-electric.trycloudflare.com"
+    target="_blank" rel="noopener noreferrer"
+    style="display: inline-block; padding: 14px 24px; border-radius: 8px; background: #69e0d2; color: #082425; font-size: 18px; font-weight: 700; text-decoration: none;">
+    Open live dashboard
+  </a>
+  <p style="margin: 12px 0 0; color: #b2c2d8; font-size: 14px;">Available while the presenter keeps the live system running. The saved activities below work separately.</p>
+</section>
+<aside class="quick-guide"><strong>Saved data lab · Not live</strong><p>Explore recorded sensor data and simulations. Each person has their own controls. Answers stay in your browser and are not sent to the teacher.</p></aside><nav class="page-nav" aria-label="Dashboard sections"><button type="button" data-page="filter" aria-pressed="true">Try filtering</button><button type="button" data-page="challenge" aria-pressed="false">Audience challenge</button><button type="button" data-page="results" aria-pressed="false">Results</button></nav><div class="page-panel" id="page-filter" data-panel="filter"><aside class="quick-guide"><strong>What should I try?</strong><p>Start with Spikes. Press Play. Compare the blue and yellow lines. Then try Sustained rise: does stronger smoothing react later?</p></aside><section class="details" style="margin-top:28px">
   <h2 style="margin-top:0">Try filtering</h2>
   <p class="subtitle">Use saved data to see how filtering changes a noisy signal. These controls do not change the live sensor.</p>
   <label for="experiment-choice">Scenario:</label>
